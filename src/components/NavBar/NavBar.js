@@ -31,7 +31,7 @@ const NavBar = () => {
                 </ul>
             </div>
             <div>
-                <button>Login</button>
+                <button>LOGIN</button>
 
             </div>
 
