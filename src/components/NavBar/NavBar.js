@@ -1,12 +1,16 @@
 import logo from '../../logo.svg';
 import './styles.css';
+import CartWidget from '../CartWidget/CartWidget';
+
 
 const NavBar = () => {
         
     return (
         <div className='navbar-container'>
             <div>
+                <CartWidget />
                 <img width={'100px'} src={logo} alt="logo" />
+                
             </div>
             <div>
                 <ul>
