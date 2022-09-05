@@ -21,7 +21,12 @@ const ItemListContainer = ({greeting}) => {
 
     return(
         <>
+            {
+                items.length > 0 ? (
             <ItemList itemsList={items} />
+                ) : 'Loading...'
+            }
+            
         </>
     )
 }
