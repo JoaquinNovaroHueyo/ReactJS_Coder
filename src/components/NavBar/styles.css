@@ -31,18 +31,7 @@ ul li a:hover{
     color: rgb(224, 173, 144);
 }
 
-button {
-    display: flex;
-    flex-direction: row;
-    padding: 10px;
-    margin-right: 15px;
-    font-size: 17px;
-    border-radius: 60px;
-    border-color: black;
-    background-color: rgb(44, 173, 196);
-    color: white;
-    cursor: pointer;
-}
+
 
 button:hover{
     color: goldenrod;
